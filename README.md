@@ -36,10 +36,6 @@ No DB needed – use hardcoded product data
 
 Optional Styling: TailwindCSS / CSS Modules / Bootstrap
 
-🕒 Time Limit
-Total Duration: ~30 minutes
-
-
 Find and fix any parts of this project that are not implemented.
 
 Keep it simple, clean, and functional
