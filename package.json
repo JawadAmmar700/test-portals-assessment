@@ -23,7 +23,7 @@
     "react-spinners": "^0.17.0",
     "swiper": "^11.2.8",
     "tailwindcss": "^4.1.8",
-    "vitejs-plugin-react-refresh": "^8.9.8"
+    "vite-plugin-reactjs-refresh": "^8.9.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
