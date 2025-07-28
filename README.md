@@ -1,46 +1,70 @@
-# Test-Project
-### 🚀 How to Run Locally
-1. `npm install`
-2. `npm run dev`
+# 🛒 Test-Project
 
-🔹 Backend (Node.js / Express)
-Set up a simple Express server with one route:
+A simple full-stack shopping interface built with React (Vite) and Node.js (Express). It features a product grid, loading/error handling, and a responsive UI with a basket modal.
 
-GET /api/products
-Returns a JSON array of 10–20 hardcoded product items
+---
 
-🔹 Frontend (React)
-Product grid layout (2–3 columns)
+## 🚀 Getting Started
 
-Each product shows image, name, and price
+### 1. Clone the Repository
 
-Fetch data from /api/products
+```bash
+git clone https://github.com/JawadAmmar700/test-portals-assessment.git
+cd test-project
+```
 
-Display a loading spinner while fetching
+### ⚙️ Backend Setup (Node.js / Express)
 
-Handle empty or error state with a friendly message
+# Navigate to the server folder and install dependencies:
 
-💡 Bonus (if time allows)
-Add "Add to Cart" buttons (no cart logic required)
+```bash
+cd server
+npm install
+```
 
-Use TailwindCSS or any styling method
+### Run the server
 
-Deploy via Vercel, Netlify, or share via GitHub
+```
+npm start
+```
 
-⚙️ Tech Requirements
-Frontend: React (preferably Vite or CRA)
+1- The API will be running at: http://localhost:3099/api/products.
 
-Backend: Node.js + Express
+2- This endpoint returns a JSON array of 10–20 hardcoded product items.
 
-No DB needed – use hardcoded product data
+### 💻 Frontend Setup (React + Vite)
 
-Optional Styling: TailwindCSS / CSS Modules / Bootstrap
+# In a new terminal tab/window:
 
-Find and fix any parts of this project that are not implemented.
+```
+npm install
+npm run dev
+```
 
-Keep it simple, clean, and functional
+### ✨ Features
 
+1- Product grid layout (2–3 columns depending on screen size)
 
+2- Displays product image, name, and price
 
+3- Fetches data from /api/products
 
+4- Shows loading spinner while fetching
 
+5- Handles empty and error states with friendly messages
+
+6- Basket modal with "Add to Cart" buttons (no cart logic needed)
+
+7- Fully responsive and modern UI using TailwindCSS
+
+### 🧪 Tech Stack
+
+1- Frontend: React 19 (with Vite)
+
+2- Backend: Node.js, Express
+
+3- Styling: TailwindCSS
+
+### 📄 License
+
+This project is for demo purposes.
